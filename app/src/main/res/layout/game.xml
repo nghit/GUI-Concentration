@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_anim"
+    android:id="@+id/TableLayout03"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+
+
+    <TableRow
+        android:id="@+id/TableRow04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TableRow05"
+        android:layout_width="wrap_content"
+        android:layout_height="108dp">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:paddingLeft="10sp"
+            android:text="SCORE"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"></TextView>
+
+        <ImageButton
+            android:id="@+id/disableMusic"
+            style="@android:style/Widget.DeviceDefault.ImageButton"
+            android:layout_width="61dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="8dp"
+            android:background="@null"
+            app:layout_anchor="@+id/include"
+            app:layout_anchorGravity="right|top"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/speaker" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TableRow01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TableRow03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TableRow02"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:gravity="center">
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/fill1"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <TextView
+            android:id="@+id/fillt"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:paddingLeft="10sp"></TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/Buttonrow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/button1"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Try Again"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/Buttonrow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="New Game"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="New Game" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/Buttonrow3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/button3"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="End Game"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+
+</TableLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bg2"
+    android:background="@drawable/bg_anim"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jason.ftp.HSActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.NoActionBar">
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include
+        android:id="@+id/include2"
+        layout="@layout/content_hs" />
+
+    <ImageButton
+        android:id="@+id/disableMusic"
+        style="@android:style/Widget.DeviceDefault.ImageButton"
+        android:layout_width="72dp"
+        android:layout_height="58dp"
+        android:background="@null"
+        app:layout_anchor="@+id/include2"
+        app:layout_anchorGravity="right|top"
+        app:srcCompat="@drawable/speaker"
+        tools:layout_editor_absoluteX="555dp" />
+
+</android.support.design.widget.CoordinatorLayout>

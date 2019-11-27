@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Memory Game</string>
+
+    <string-array name="type" id="stuff">
+        <item>Choose Dimensions</item>
+        <item>2 X 2</item>
+        <item>2 X 3</item>
+        <item>2 X 4</item>
+        <item>3 X 4</item>
+        <item>7 X 2</item>
+    </string-array>
+    <string name="title_activity_manager">ManagerActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_hs">HSActivity</string>
+    <string name="title_activity_game">gameActivity</string>
+    <string name="title_activity_score_screen">scoreScreenActivity</string>
+
+    <string name="play_dialog">How many words?</string>
+    <string name="cancelButton">Cancel</string>
+
+    <string-array name="play_dialog_string_array">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+</resources>
