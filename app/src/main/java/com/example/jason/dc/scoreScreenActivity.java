@@ -1,10 +1,10 @@
 /***
  * file: scoreScreenActivity.java
- * author: Team FTP
- * class: CS 245 - Programming Graphical User Interfaces
+ * author: Team Dream Crushers
+ * class: CS 2450 - Programming Graphical User Interfaces
  *
  * assignment: Android Studio Project
- * date last modified: 12/5/17
+ * date last modified: 11/27/19
  *
  * purpose: This class creates the score screen after the game, and determines where to save the
  * score if it is a new high score

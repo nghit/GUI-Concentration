@@ -1,10 +1,10 @@
 /***************************************************************
  * file: HighScoreDialogFragment.java
- * author: Team FTP
- * class: CS 245 - Programming Graphical User Interfaces
+ * author: Team Dream Crushers
+ * class: CS 2450 - Programming Graphical User Interfaces
  *
  * assignment: Android Studio Project
- * date last modified: 12/5/17
+ * date last modified: 11/27/19
  *
  * purpose: The dialog fragment when high score is clicked.
  * Allows the user to choose which high score they want displayed
